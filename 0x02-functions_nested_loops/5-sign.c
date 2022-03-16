@@ -1,12 +1,11 @@
 #include "main.h"
 /**
  * print_sign - checks for a
- * @c: takes in an integer
+ * @c: takes in an integer n
  * Return: 1 if positive, -1 if negative, /if not a digit.
  */
 int print_sign(int n)
 {
-
 if (n > 0)
 {
 _putchar('+');
