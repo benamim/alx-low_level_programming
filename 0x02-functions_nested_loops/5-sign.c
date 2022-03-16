@@ -4,14 +4,21 @@
  * @c: takes in a character
  * return: 1 if it's letter, lowercase, uppercase; otherwise 0
  */
-int _isalpha(int c)
+int _print(int n)
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	if (n>0)
 {
+	_putchar('+');
 	return (1);
+}
+else if (n == 0)
+{
+	_putchar('-');
+	return (-1);
 }
 else
 {
-	return (0);
+	_putchar('-');
+	return (-1);
 }
 }
