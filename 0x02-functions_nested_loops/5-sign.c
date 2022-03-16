@@ -4,7 +4,7 @@
  * @c: takes in an integer
  * return: 1 if positive, -1 if negative, /if not a digit.
  */
-int print_sign(int n)
+int print_sign (int n)
 {
 if (n > 0)
 {
