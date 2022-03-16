@@ -8,6 +8,7 @@ int main(void)
 {
 	char bena[] = "_putchar";
 	int c;
+	
 	for (c = 0; c < 8; c++)
 {
 	_putchar(bena[c]);
