@@ -14,28 +14,3 @@ int factorial(int n)
 	else
 		return (n * factorial(n - 1));
 }
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-3-factorial.c [unix] (10:06 31/03/2022)                                0,0-1 All
-"3-factorial.c" 0L, 0B
-
